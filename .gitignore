@@ -1,0 +1,122 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE
+.vscode/
+.idea/
+
+# Checkpoints and data (too large for git)
+checkpoints/
+data/
+
+# Intermediate results
+*.png
+*.xlsx
+*.tar.gz
+*.gz
+tsne/
+box/
+
+# Historical logs and notes
+train_bash.txt
+run_ds.txt
+run_ds_2.txt
+cluster.yml
+gather_info.py
+
+# Old batch experiment scripts (use scripts/ instead)
+*.sh
+!scripts/*.sh
+
+# Tools directory (analysis/plotting utilities)
+src/tools/
+
+# Unused entry scripts
+src/run_visualize.py
+src/run_tune.py
+src/run_attack_single.py
+src/run_attack_slow_fast.py
+src/run_attack_finetune_test.py
+src/run_backdoor_trigger_for_tranining.py
+src/run_implement_attack_backdoor.py
+src/run_adp_attack_backdoor.py
+src/generate_severi_trigger.py
+src/draw_3d.py
+
+# Unused attack modules
+src/attacks/adp_attack_backdoor.py
+src/attacks/attack_finetune_test.py
+src/attacks/attack_single.py
+src/attacks/attack_tune.py
+src/attacks/attack_visualize.py
+src/attacks/implement_attack_backdoor.py
+src/attacks/generate_backdoor_trigger_for_training.py
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Logs
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre / pytype
+.pyre/
+.pytype/
+cython_debug/
