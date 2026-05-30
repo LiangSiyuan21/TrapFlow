@@ -1,4 +1,4 @@
-# WFTransfer: Backdoor Attacks on Website Fingerprinting via Transferable Triggers
+# TrapFlow: Controllable Website Fingerprinting Defense via Dynamic Backdoor Learning
 
 This repository contains the implementation of our paper on backdoor attacks against website fingerprinting (WF) classifiers. We propose a reinforcement learning-based approach to generate transferable trigger patterns that can be inserted into encrypted network traffic traces to mislead WF classifiers.
 
